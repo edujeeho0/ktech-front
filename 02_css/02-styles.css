@@ -26,3 +26,26 @@ a {
   color: purple;
   background-color: skyblue;
 }
+
+/* 속성 선택자 */
+[name="name-input"] {
+  background-color: coral;
+}
+
+/* 전체 선택자 */
+* {
+  text-align: center;
+}
+
+/* 복합 선택자 */
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.blue.red {
+  color: purple;
+}
