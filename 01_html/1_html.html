@@ -80,10 +80,43 @@
       <img src="fish.png">
     </a>
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
 
+    <!-- division, span -->
+    <div>
+      <h3>Alex</h3>
+      <p><span>Alex</span>'s profile</p>
+    </div>
+    <div>
+      <h3>Brad</h3>
+      <p><span>Brad</span>'s profile</p>
+    </div>
+
+    <!-- Form: (사용자가 데이터를 입력하는) 양식 -->
+    <form>
+      <h3>Form 사용해보기</h3>
+      <div>
+        <!-- 사용자가 사용하기 편하게 해주는 요소 -->
+        <label>
+          이름:
+          <input type="text" name="name">
+        </label>
+      </div>
+      <div>
+        <label for="age-input">나이:</label>
+        <input type="text" name="age" id="age-input">
+      </div>
+      <div>
+        전공:
+        <input type="text" name="major">
+      </div>
+      <div>
+        성별
+        <label for="male">남: </label>
+        <input type="radio" name="gender" value="M" id="male">
+        <label for="female">여: </label>
+        <input type="radio" name="gender" value="F" id="female">
+      </div>
+      <input type="submit" value="GO!!!">
+    </form>
   </body>
 </html>
