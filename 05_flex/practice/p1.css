@@ -1,11 +1,16 @@
 #container {
+  display: flex;
   width: 750px;
   height: 50px;
 }
 
 .item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 93.75px;
   height: 100%;
+  box-sizing: border-box;
   border: 0.5px solid lightgrey;
 }
 
@@ -13,4 +18,3 @@
   color: white;
   background-color: #42be6f;
 }
-
